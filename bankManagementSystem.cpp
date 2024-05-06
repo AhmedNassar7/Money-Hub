@@ -1,10 +1,10 @@
 /****************************************
  *
- * Auther : Muhammad Eid - Mohammed-eid35.
+ * Auther : Ahmed Nassar - AhmedNassar7.
  * Bank management system.
  * Version 01.
  * cpp Project.
- * First Year FCI, First Semester.
+ * First Year FCI, Second Semester.
  *
 ****************************************/
 
