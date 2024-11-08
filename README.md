@@ -1,34 +1,79 @@
 # Money Hub
 
-This repository contains a C++ project for a **Bank Management System** that manages accounts for users and admins. The system provides functionality for both users and admins, enabling account management, financial transactions, and administrative tasks.
+This is **Bank Management System** using **C++ ** designed to manage user and admin accounts in a bank system. The **Money Hub** application allows for secure management of financial accounts, including functionalities for users to view their accounts, make transactions, and for admins to manage both user and admin accounts.
+
+## Table of Contents
+- [Features](#features)
+- [Login Options](#login-options)
+- [Admin Functionalities](#admin-functionalities)
+- [Main Admin Privileges](#main-admin-privileges)
+- [User Functionalities](#user-functionalities)
+- [Usage](#usage)
+- [Default Admin Credentials](#default-admin-credentials)
+
+---
 
 ## Features
 
-### Login Options
-- **Admin Login**: Provides admin-level privileges.
-- **User Login**: Allows users to manage their bank accounts.
+### Overview
+The Bank Management System provides separate functionalities for **admins** and **users**:
+- **Admin**: Account creation, deletion, and management of users and other admins.
+- **User**: Access to personal account information and financial transactions, including withdrawals and deposits.
 
-### Admin Functionalities
-Admins have access to the following features:
-1. **Display Admin Data**: View personal details and account information.
+### Login Options
+1. **Admin Login**: Grants access to administrative tools and user management.
+2. **User Login**: Allows users to manage their individual bank accounts.
+
+---
+
+## Admin Functionalities
+
+Admins can perform the following actions:
+
+1. **Display Admin Data**: View admin's personal and account details.
 2. **Create Account for New User**: Add a new user account to the system.
 3. **Delete User Account**: Remove an existing user account.
-4. **Search for User Account**: Find and view a user account by username.
-5. **Update User Account**: Modify user details such as name, age, and phone number.
+4. **Search for User Account**: Find and view user account details by username.
+5. **Update User Account**: Modify user information, including name, age, and phone number.
 
-#### Main Admin Privileges
-The main admin (default credentials: **Username**: Admin, **Password**: Admin) has additional capabilities:
-1. **Create Account for New Admin**: Add a new admin to the system.
+---
+
+## Main Admin Privileges
+
+The **Main Admin** account (default credentials: `Username: Admin`, `Password: Admin`) has additional privileges:
+
+1. **Create Account for New Admin**: Add a new admin account.
 2. **Delete Admin Account**: Remove an existing admin account.
-3. **Update Admin Account**: Modify admin details.
-4. **Search for Admin Account**: Find and view an admin account by username.
+3. **Update Admin Account**: Modify admin details, such as name and contact information.
+4. **Search for Admin Account**: Find and view admin account details by username.
 
-### User Functionalities
-Users have access to the following features:
-1. **Display Account Data**: View personal details, including balance.
-2. **Withdraw Money**: Deduct a specified amount from their account.
-3. **Deposit Money**: Add a specified amount to their account balance.
+---
 
+## User Functionalities
+
+Users can access the following features:
+
+1. **Display Account Data**: View personal details and current balance.
+2. **Withdraw Money**: Deduct a specified amount from the account balance.
+3. **Deposit Money**: Add a specified amount to the account balance.
+
+---
+
+## Usage
+
+Upon starting the application, users and admins will have the option to log in with their credentials to access their respective features.
+
+- **Admin Mode**: Use an admin username and password to log in with administrative privileges.
+- **User Mode**: Log in with a user account to access personal banking functionalities.
+
+---
+
+## Default Admin Credentials
+
+The main admin account has the following default credentials:
+
+- **Username**: `Admin`
+- **Password**: `Admin`
 
 Login -> Admin OR User
 
